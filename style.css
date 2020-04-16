@@ -1,0 +1,221 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.header {
+    background: url(img/header.jpg);
+}
+
+p:first-letter {
+    font-size: 25px;
+    color: cadetblue;
+}
+
+.menu li {
+    width: 130px;
+    height: 35px;
+    list-style-type: none;
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 25px;
+    display: inline-block;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-right: 3px;
+}
+
+.menu {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+}
+
+
+.menu li a {
+    color: darkviolet;
+    border: 1px solid 000;
+}
+
+.menu li a:hover {
+    color: aqua;
+}
+
+.menu li a:active {
+    color: forestgreen;
+}
+
+.heading {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+    text-align: left;
+}
+
+.heading_1 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+    text-align: center;
+    overflow: hidden;
+}
+
+.heading_2 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+    text-align: left;
+    clear: both;
+
+}
+
+
+.short {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    text-align: center;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.long {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+img[alt="tour"] {
+    float: left;
+}
+
+img[alt="london"] {
+    float: left;
+}
+
+img[alt="unique"] {
+    float: left;
+}
+
+img[alt="London"] {
+    margin-right: 120px;
+}
+
+img[alt="Tour"] {
+    margin-right: 120px;
+}
+
+img[alt="unique"] {
+    float: left;
+}
+
+.format {
+    border: solid;
+    2px;
+    line-height: 30px;
+}
+
+input[type="text"]:nth-of-type(2):hover {
+    color: darkgreen;
+    background-color: aquamarine;
+}
+
+input[type="text"] {
+    background-color: lightcyan;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: darkblue;
+    font-weight: bold;
+    height: 20px;
+    width: 400px;
+}
+
+.begin {
+    font-size: 19px;
+    text-align: center;
+    line-height: 18px;
+}
+
+.two {
+    height: 80px;
+}
+
+.table {
+    border: 3px solid #000;
+    width: 900px;
+    height: 200px;
+    border-collapse: collapse;
+}
+
+.table td {
+    border: 3px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    vertical-align: middle;
+    text-align: center;
+    width: 33%;
+}
+
+img[alt="logo"] {
+   
+    float: left;
+    border: 1px solid black;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.footer {
+    height: 50px;
+    background-color: azure;
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+
+.header {
+    height: 115px;
+}
+
+.container {
+    width: 1350px;
+    margin: 0 auto;
+}
+
+button {
+    color: #fff;
+    background: darkviolet;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid darkblue;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Courier;
+    display: inline-block;
+    margin: 15px 20px;
+}
+
+button:hover {
+    background: aqua;
+    border: 2px solid blue;
+    color: black;
+}
+
+button:active {
+    background: red;
+    border: 2px solid red;
+    color: white;
+}
+
+h1 {
+    text-align: right;
+}
+
+.pics {
+    display: inline-block;
+}
